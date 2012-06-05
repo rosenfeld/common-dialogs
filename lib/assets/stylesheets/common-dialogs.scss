@@ -1,0 +1,21 @@
+div.alert-dialog, div.confirm-dialog, div.input-dialog {
+  padding-left: 40px;
+  min-height: 32px;
+}
+
+div.alert-dialog {
+  background: image-url('application/common-dialogs/info.gif') no-repeat left;
+}
+
+div.alert-dialog.error {
+  background-image: image-url('application/common-dialogs/important.gif');
+}
+
+div.confirm-dialog, div.input-dialog {
+  background: image-url('application/common-dialogs/help.gif') no-repeat left;
+}
+
+div.input-dialog input {
+  display: block;
+  width: 100%;
+}
