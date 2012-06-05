@@ -4,7 +4,11 @@ This provides asynchronous alternatives to alert, confirm and prompt.
 
 # Installing
 
-Add "gem 'common-dialogs'" to your Gemfile and run bundle.
+If you're not using Rails, just grab the sources from lib/assets. If you're not using
+CoffeeScript, you can always convert the sources to JavaScript in the "Try CoffeeScript"
+tab in [coffeescript.org](http://coffeescript.org).
+
+Otherwise, just add "gem 'common-dialogs'" to your Gemfile and run bundle.
 
 It also depends on jQuery-UI being installed. I recommend the
 [jquery-ui-themes](https://github.com/fatdude/jquery-ui-themes-rails) gem.
