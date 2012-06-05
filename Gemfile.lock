@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    common-dialogs (0.0.1)
+    common-dialogs (0.0.2)
       coffee-rails
       jquery-rails
 
