@@ -4,15 +4,15 @@ div.alert-dialog, div.confirm-dialog, div.input-dialog {
 }
 
 div.alert-dialog {
-  background: image-url('common-dialogs-message.gif') no-repeat left;
+  background: image-url('common-dialogs-message.png') no-repeat left;
 }
 
 div.alert-dialog.error {
-  background-image: image-url('common-dialogs-error.gif');
+  background-image: image-url('common-dialogs-error.png');
 }
 
 div.confirm-dialog, div.input-dialog {
-  background: image-url('common-dialogs-confirm.gif') no-repeat left;
+  background: image-url('common-dialogs-confirm.png') no-repeat left;
 }
 
 div.input-dialog input {
