@@ -39,7 +39,7 @@ CD = @CommonDialogs =
   inputDialog: (message, onConfirm, options={})->
     options.required ?= true
     content = $('<div class=input-dialog />')
-      .append($('<div class=message/>').text message)
+      .append($('<div class=common-dialogs-message/>').text message)
       .append(input = $('<input type=text />'))
     input.val options.initialValue
     input.keydown (ev)->
