@@ -50,3 +50,7 @@ inputDialog 'What is your name?', ((name)-> console.log "Your name is #{name}"),
 Feel free to change the default messages and button names by changing the
 CommonDialogs.defaults object. Just inspect it (console.log(CommonDialogs.defaults))
 to see what keys to change and what are their default values.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rosenfeld/common-dialogs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
