@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    common-dialogs (0.0.3)
+    common-dialogs (0.0.4)
       coffee-rails
       jquery-rails
 
@@ -31,10 +31,9 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.2)
+    coffee-script-source (1.6.3)
     erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
+    execjs (2.0.2)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.3)

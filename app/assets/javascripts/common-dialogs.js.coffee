@@ -44,6 +44,7 @@ CD = @CommonDialogs =
     input.val options.initialValue
     input.keydown (ev)->
       return unless ev.which is 13 # ENTER
+      ev.preventDefault()
       dialog.siblings('.ui-dialog-buttonpane').find('button:eq(0)').click()
 
     canceled = true
